@@ -1,0 +1,87 @@
+.container-fluid {
+    text-align: center;
+    background-color: black;
+    padding-bottom: 1.4em;
+    color: white;
+    font-family: fantasy;
+    text-shadow: purple 5px 5px 5px;
+    border: solid purple;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+#zone {
+    width: 960px;
+    height: 600px;
+    border: 3px solid purple;
+    margin: auto;
+    margin-top: 4em;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#raquette {
+    width: 96px;
+    height: 16px;
+    border: white thin double;
+    background: white;
+    position: absolute;
+}
+
+#balle {
+    width: 24px;
+    height: 24px;
+    border-radius: 10px;
+    background: white;
+    border: purple solid 2px;
+    position: absolute;
+}
+
+#score {
+    color: white;
+    margin-left: 1em;
+    position: absolute;
+    font-family: fantasy;
+    font-size: large;
+}
+
+.brick {
+    width: 64px;
+    height: 24px;
+    background: white;
+    border: solid 3px purple;
+    position: absolute;
+}
+
+body {
+    background-image: url(outer-space-planets-nebulae-galaxy-theme-backdrop-Vinyl-cloth-High-quality-Computer-print-wall-photography-backgrounds.jpg_640x640q70.jpg);
+}
+
+#vie {
+    position: absolute;
+    margin-left: 14.5em;
+    margin-top: 10px;
+}
+
+#back {
+    margin-left: 5em;
+    position: absolute;
+    height: 4em;
+    width: 21em;
+    background-color: black;
+    border: solid purple;
+    border-radius: 10px;
+}
+
+#message {
+    position: absolute;
+    color: white;
+    margin-top: 250px;
+    margin-left: 325px;
+    font-size: 50px;
+    color: purple;
+}
